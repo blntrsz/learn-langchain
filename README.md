@@ -2,18 +2,18 @@
 
 1. Create  `.env` with OPENAI_API_KEY api key
 
-2. To activate pipenv run:
+2. Install poetry
 ```
-pipenv shell
+pip3 install poetry
 ```
 
 3. Install dependencies
 ```
-pipenv install
+poetry install
 ```
 
 4. Run program:
 ```
-python <program-name>.py
+poetry run src/<program-name>.py
 ```
 
